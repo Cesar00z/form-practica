@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!--FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>solicitar reunión</h1>
+        <div class="underline"></div>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <form action="">
+                    <p>
+                        <label for="nombre">NOMBRE</label>
+                        <input type="text" name="name" id="nombre">
+                    </p>
+
+                    <p>
+                        <label for="email">CORREO</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+
+                    <p class="asunto">
+                        <label for="asunto">ASUNTO</label>
+                        <input type="text" name="asunto" id="asunto">
+                    </p>
+
+                    <p class="estatus">
+                        <label for="estatus">ESTATUS</label>
+                        <select name="status" id="status">
+                            <option></option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <label>CONTENIDO</label>
+                        <textarea name="message" rows="6"></textarea>
+                    </p>
+
+                    <p>
+                        <button>enviar mensaje</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>

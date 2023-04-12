@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F3EB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    border: 3px solid #000;
+    max-width: 650px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: #474544;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.underline {
+    border-bottom: solid 2px #474544;
+    width: 10%;
+    margin: 1rem auto 2.5rem auto;
+}
+
+.contact-form {
+    padding: 1 rem;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form .estatus,
+.contact-form .asunto {
+    grid-column: 1 / 3;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.contact-form form p:nth-child(5) {
+    grid-column: 1 / 3;
+}
+
+.contact-form form input,
+.contact-form form textarea,
+.contact-form form select {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 2px solid #474544;
+    color: #474544;
+    resize: none;
+    appearance: none;
+    font-size: 1rem;
+}
+
+.contact-form form select {
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contact-form form button {
+    background: #F2F3EB;
+    border: 2px solid #474544;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    cursor: pointer;
+}
